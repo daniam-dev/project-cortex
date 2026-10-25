@@ -1,0 +1,8 @@
+{
+  "name": "project-cortex-development",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test tests/*.test.mjs", "validate": "node tests/validate.mjs" }
+}
